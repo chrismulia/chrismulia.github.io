@@ -2,9 +2,6 @@ html{
   background-color: black;
 }
 
-.logo{
-  display: run-in;
-}
 
 .left-menu{
     position: fixed;
@@ -16,4 +13,41 @@ html{
     vertical-align: top;
     padding-top: 20px;
     padding-left: 35px;
+}
+
+#menu-outer {
+	height: 40px;
+	word-spacing: 15px;
+  color: #FFFFFF;
+}
+
+.navbar .topmenu-table .table #topmenu #horizontal-list a{
+	display: table;   /* Allow the centering to work */
+  text-decoration: none;
+  color: white;
+}
+
+#topmenu{
+  font-family: Arial;
+  font-size: 13px;
+  word-spacing: 5px;
+  line-height: 3em;
+  letter-spacing: .2em;
+}
+
+ul#horizontal-list {
+	min-width: 200px;
+	list-style: none;
+
+	}
+
+ul#horizontal-list li {
+		display: list-item;
+    color: white;
+	}
+
+
+
+@media only screen and (max-width: 1000px){
+    .logo
 }
