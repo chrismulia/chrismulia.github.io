@@ -1,0 +1,19 @@
+html{
+  background-color: black;
+}
+
+.logo{
+  display: run-in;
+}
+
+.left-menu{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 420px;
+    height: 100%;
+    z-index: 99;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-left: 35px;
+}
